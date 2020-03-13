@@ -23,6 +23,9 @@ let package = Package(
                 .headerSearchPath("Dependencies/Gherkin"),
                 .headerSearchPath("Utils")
             ]
-        )
+        ),
+        .testTarget(name: "SPMImportTest",
+                    dependencies: ["Cucumberish"],
+                    path: "CucumberishLibraryTest/SPMImportTest")
     ]
 )
