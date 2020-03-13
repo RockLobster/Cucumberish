@@ -58,21 +58,11 @@
 		607EEA1F1E50EDDD00F2E8B6 /* NSArray+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F711E16BA290042D98D /* NSArray+Hashes.m */; };
 		607EEA201E50EDDD00F2E8B6 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F731E16BA290042D98D /* NSObject+Dictionary.m */; };
 		607EEA211E50EDDD00F2E8B6 /* NSString+Formatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80F751E16BA290042D98D /* NSString+Formatter.m */; };
-		607EEA221E50EE1000F2E8B6 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F071E16BA280042D98D /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607EEA231E50EE1000F2E8B6 /* CCIFeaturesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F091E16BA280042D98D /* CCIFeaturesManager.h */; };
-		607EEA241E50EE1000F2E8B6 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F0B1E16BA280042D98D /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607EEA251E50EE1000F2E8B6 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F0E1E16BA280042D98D /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607EEA261E50EE1000F2E8B6 /* CCIAroundHock.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F101E16BA280042D98D /* CCIAroundHock.h */; };
-		607EEA271E50EE1000F2E8B6 /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F121E16BA280042D98D /* CCIBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607EEA281E50EE1000F2E8B6 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F141E16BA280042D98D /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607EEA291E50EE1000F2E8B6 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F161E16BA280042D98D /* CCIFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607EEA2A1E50EE1000F2E8B6 /* CCIHock.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F181E16BA280042D98D /* CCIHock.h */; };
 		607EEA2B1E50EE1000F2E8B6 /* CCIJSONDumper.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1A1E16BA280042D98D /* CCIJSONDumper.h */; };
-		607EEA2C1E50EE1000F2E8B6 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1C1E16BA280042D98D /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607EEA2D1E50EE1000F2E8B6 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F1E1E16BA280042D98D /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		607EEA2E1E50EE1000F2E8B6 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F201E16BA280042D98D /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607EEA2F1E50EE1000F2E8B6 /* CCIStepDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F221E16BA280042D98D /* CCIStepDefinition.h */; };
-		607EEA301E50EE1000F2E8B6 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F241E16BA280042D98D /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		607EEA311E50EE1000F2E8B6 /* GHAstBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F281E16BA280042D98D /* GHAstBuilder.h */; };
 		607EEA321E50EE1000F2E8B6 /* GHAstNode.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F2A1E16BA280042D98D /* GHAstNode.h */; };
 		607EEA331E50EE1000F2E8B6 /* GHBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F2C1E16BA280042D98D /* GHBackground.h */; };
@@ -116,6 +106,16 @@
 		607EEA591E50EE1000F2E8B6 /* NSObject+Dictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F721E16BA290042D98D /* NSObject+Dictionary.h */; };
 		607EEA5A1E50EE1000F2E8B6 /* NSString+Formatter.h in Headers */ = {isa = PBXBuildFile; fileRef = C5E80F741E16BA290042D98D /* NSString+Formatter.h */; };
 		607EEA5B1E50EF4F00F2E8B6 /* gherkin-languages.json in Resources */ = {isa = PBXBuildFile; fileRef = C5E80F341E16BA280042D98D /* gherkin-languages.json */; };
+		87976B03241B832200B0EF74 /* CCIFeature.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AF9241B832200B0EF74 /* CCIFeature.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B04241B832200B0EF74 /* CCIStep.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFA241B832200B0EF74 /* CCIStep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B05241B832200B0EF74 /* CCIBlockDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFB241B832200B0EF74 /* CCIBlockDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B06241B832200B0EF74 /* CCILocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFC241B832200B0EF74 /* CCILocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B07241B832200B0EF74 /* CCIBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFD241B832200B0EF74 /* CCIBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B08241B832200B0EF74 /* CCIExample.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFE241B832200B0EF74 /* CCIExample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B09241B832200B0EF74 /* Cucumberish.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976AFF241B832200B0EF74 /* Cucumberish.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B0A241B832200B0EF74 /* CCIStepsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976B00241B832200B0EF74 /* CCIStepsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B0B241B832200B0EF74 /* CCIArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976B01241B832200B0EF74 /* CCIArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87976B0C241B832200B0EF74 /* CCIScenarioDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 87976B02241B832200B0EF74 /* CCIScenarioDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3D80A9020497AA800ACAE33 /* Cucumberish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607EE9EA1E50ED5800F2E8B6 /* Cucumberish.framework */; };
 		B3D80A9120497AAC00ACAE33 /* Cucumberish.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 607EE9EA1E50ED5800F2E8B6 /* Cucumberish.framework */; };
 		B3D80AF52049AC2A00ACAE33 /* XCTestCase+RecordFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = B3D80AF32049AC2A00ACAE33 /* XCTestCase+RecordFailure.h */; };
@@ -142,6 +142,16 @@
 		3E38B0F61DDDE0D600C1CF5A /* CucumberFeatureSteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CucumberFeatureSteps.m; sourceTree = "<group>"; };
 		3E38B10E1DDDE15100C1CF5A /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
 		607EE9EA1E50ED5800F2E8B6 /* Cucumberish.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cucumberish.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87976AF9241B832200B0EF74 /* CCIFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeature.h; sourceTree = "<group>"; };
+		87976AFA241B832200B0EF74 /* CCIStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStep.h; sourceTree = "<group>"; };
+		87976AFB241B832200B0EF74 /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBlockDefinitions.h; sourceTree = "<group>"; };
+		87976AFC241B832200B0EF74 /* CCILocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCILocation.h; sourceTree = "<group>"; };
+		87976AFD241B832200B0EF74 /* CCIBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBackground.h; sourceTree = "<group>"; };
+		87976AFE241B832200B0EF74 /* CCIExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIExample.h; sourceTree = "<group>"; };
+		87976AFF241B832200B0EF74 /* Cucumberish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cucumberish.h; sourceTree = "<group>"; };
+		87976B00241B832200B0EF74 /* CCIStepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepsManager.h; sourceTree = "<group>"; };
+		87976B01241B832200B0EF74 /* CCIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIArgument.h; sourceTree = "<group>"; };
+		87976B02241B832200B0EF74 /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIScenarioDefinition.h; sourceTree = "<group>"; };
 		B3D80AF32049AC2A00ACAE33 /* XCTestCase+RecordFailure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XCTestCase+RecordFailure.h"; sourceTree = "<group>"; };
 		B3D80AF42049AC2A00ACAE33 /* XCTestCase+RecordFailure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XCTestCase+RecordFailure.m"; sourceTree = "<group>"; };
 		C57B79D81E15847C001B758D /* CucumberishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CucumberishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,34 +161,24 @@
 		C57B79E41E15922A001B758D /* expected_execution.output */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = expected_execution.output; sourceTree = "<group>"; };
 		C57B79E51E15922A001B758D /* expected_json_output.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = expected_json_output.json; sourceTree = "<group>"; };
 		C57B79E61E15922A001B758D /* Features */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Features; sourceTree = "<group>"; };
-		C5E80F071E16BA280042D98D /* CCIBlockDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBlockDefinitions.h; sourceTree = "<group>"; };
 		C5E80F091E16BA280042D98D /* CCIFeaturesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeaturesManager.h; sourceTree = "<group>"; };
 		C5E80F0A1E16BA280042D98D /* CCIFeaturesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeaturesManager.m; sourceTree = "<group>"; };
-		C5E80F0B1E16BA280042D98D /* CCIStepsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepsManager.h; sourceTree = "<group>"; };
 		C5E80F0C1E16BA280042D98D /* CCIStepsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepsManager.m; sourceTree = "<group>"; };
-		C5E80F0E1E16BA280042D98D /* CCIArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIArgument.h; sourceTree = "<group>"; };
 		C5E80F0F1E16BA280042D98D /* CCIArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIArgument.m; sourceTree = "<group>"; };
 		C5E80F101E16BA280042D98D /* CCIAroundHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIAroundHock.h; sourceTree = "<group>"; };
 		C5E80F111E16BA280042D98D /* CCIAroundHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIAroundHock.m; sourceTree = "<group>"; };
-		C5E80F121E16BA280042D98D /* CCIBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIBackground.h; sourceTree = "<group>"; };
 		C5E80F131E16BA280042D98D /* CCIBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIBackground.m; sourceTree = "<group>"; };
-		C5E80F141E16BA280042D98D /* CCIExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIExample.h; sourceTree = "<group>"; };
 		C5E80F151E16BA280042D98D /* CCIExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIExample.m; sourceTree = "<group>"; };
-		C5E80F161E16BA280042D98D /* CCIFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIFeature.h; sourceTree = "<group>"; };
 		C5E80F171E16BA280042D98D /* CCIFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIFeature.m; sourceTree = "<group>"; };
 		C5E80F181E16BA280042D98D /* CCIHock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIHock.h; sourceTree = "<group>"; };
 		C5E80F191E16BA280042D98D /* CCIHock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIHock.m; sourceTree = "<group>"; };
 		C5E80F1A1E16BA280042D98D /* CCIJSONDumper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIJSONDumper.h; sourceTree = "<group>"; };
 		C5E80F1B1E16BA280042D98D /* CCIJSONDumper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIJSONDumper.m; sourceTree = "<group>"; };
-		C5E80F1C1E16BA280042D98D /* CCILocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCILocation.h; sourceTree = "<group>"; };
 		C5E80F1D1E16BA280042D98D /* CCILocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCILocation.m; sourceTree = "<group>"; };
-		C5E80F1E1E16BA280042D98D /* CCIScenarioDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIScenarioDefinition.h; sourceTree = "<group>"; };
 		C5E80F1F1E16BA280042D98D /* CCIScenarioDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIScenarioDefinition.m; sourceTree = "<group>"; };
-		C5E80F201E16BA280042D98D /* CCIStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStep.h; sourceTree = "<group>"; };
 		C5E80F211E16BA280042D98D /* CCIStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStep.m; sourceTree = "<group>"; };
 		C5E80F221E16BA280042D98D /* CCIStepDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCIStepDefinition.h; sourceTree = "<group>"; };
 		C5E80F231E16BA280042D98D /* CCIStepDefinition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCIStepDefinition.m; sourceTree = "<group>"; };
-		C5E80F241E16BA280042D98D /* Cucumberish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cucumberish.h; sourceTree = "<group>"; };
 		C5E80F251E16BA280042D98D /* Cucumberish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cucumberish.m; sourceTree = "<group>"; };
 		C5E80F281E16BA280042D98D /* GHAstBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHAstBuilder.h; sourceTree = "<group>"; };
 		C5E80F291E16BA280042D98D /* GHAstBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHAstBuilder.m; sourceTree = "<group>"; };
@@ -329,6 +329,23 @@
 			path = CucumberishFeatureDefinition;
 			sourceTree = "<group>";
 		};
+		87976AF8241B832200B0EF74 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				87976AF9241B832200B0EF74 /* CCIFeature.h */,
+				87976AFA241B832200B0EF74 /* CCIStep.h */,
+				87976AFB241B832200B0EF74 /* CCIBlockDefinitions.h */,
+				87976AFC241B832200B0EF74 /* CCILocation.h */,
+				87976AFD241B832200B0EF74 /* CCIBackground.h */,
+				87976AFE241B832200B0EF74 /* CCIExample.h */,
+				87976AFF241B832200B0EF74 /* Cucumberish.h */,
+				87976B00241B832200B0EF74 /* CCIStepsManager.h */,
+				87976B01241B832200B0EF74 /* CCIArgument.h */,
+				87976B02241B832200B0EF74 /* CCIScenarioDefinition.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
 		B3D80A8F20497AA800ACAE33 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,8 +370,8 @@
 		C5E80F051E16BA280042D98D /* Cucumberish */ = {
 			isa = PBXGroup;
 			children = (
+				87976AF8241B832200B0EF74 /* include */,
 				C5E80F061E16BA280042D98D /* Core */,
-				C5E80F241E16BA280042D98D /* Cucumberish.h */,
 				C5E80F251E16BA280042D98D /* Cucumberish.m */,
 				C5E80F261E16BA280042D98D /* Dependencies */,
 				C5E80F6F1E16BA290042D98D /* Utils */,
@@ -366,7 +383,6 @@
 		C5E80F061E16BA280042D98D /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				C5E80F071E16BA280042D98D /* CCIBlockDefinitions.h */,
 				C5E80F081E16BA280042D98D /* Managers */,
 				C5E80F0D1E16BA280042D98D /* Models */,
 			);
@@ -378,7 +394,6 @@
 			children = (
 				C5E80F091E16BA280042D98D /* CCIFeaturesManager.h */,
 				C5E80F0A1E16BA280042D98D /* CCIFeaturesManager.m */,
-				C5E80F0B1E16BA280042D98D /* CCIStepsManager.h */,
 				C5E80F0C1E16BA280042D98D /* CCIStepsManager.m */,
 				F3CBE1A91F19C59700D34E16 /* CCILoggingManager.h */,
 				F3CBE1AA1F19C59700D34E16 /* CCILoggingManager.m */,
@@ -389,25 +404,18 @@
 		C5E80F0D1E16BA280042D98D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				C5E80F0E1E16BA280042D98D /* CCIArgument.h */,
 				C5E80F0F1E16BA280042D98D /* CCIArgument.m */,
 				C5E80F101E16BA280042D98D /* CCIAroundHock.h */,
 				C5E80F111E16BA280042D98D /* CCIAroundHock.m */,
-				C5E80F121E16BA280042D98D /* CCIBackground.h */,
 				C5E80F131E16BA280042D98D /* CCIBackground.m */,
-				C5E80F141E16BA280042D98D /* CCIExample.h */,
 				C5E80F151E16BA280042D98D /* CCIExample.m */,
-				C5E80F161E16BA280042D98D /* CCIFeature.h */,
 				C5E80F171E16BA280042D98D /* CCIFeature.m */,
 				C5E80F181E16BA280042D98D /* CCIHock.h */,
 				C5E80F191E16BA280042D98D /* CCIHock.m */,
 				C5E80F1A1E16BA280042D98D /* CCIJSONDumper.h */,
 				C5E80F1B1E16BA280042D98D /* CCIJSONDumper.m */,
-				C5E80F1C1E16BA280042D98D /* CCILocation.h */,
 				C5E80F1D1E16BA280042D98D /* CCILocation.m */,
-				C5E80F1E1E16BA280042D98D /* CCIScenarioDefinition.h */,
 				C5E80F1F1E16BA280042D98D /* CCIScenarioDefinition.m */,
-				C5E80F201E16BA280042D98D /* CCIStep.h */,
 				C5E80F211E16BA280042D98D /* CCIStep.m */,
 				C5E80F221E16BA280042D98D /* CCIStepDefinition.h */,
 				C5E80F231E16BA280042D98D /* CCIStepDefinition.m */,
@@ -523,18 +531,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607EEA301E50EE1000F2E8B6 /* Cucumberish.h in Headers */,
-				607EEA281E50EE1000F2E8B6 /* CCIExample.h in Headers */,
-				607EEA241E50EE1000F2E8B6 /* CCIStepsManager.h in Headers */,
-				607EEA251E50EE1000F2E8B6 /* CCIArgument.h in Headers */,
-				607EEA221E50EE1000F2E8B6 /* CCIBlockDefinitions.h in Headers */,
-				607EEA2E1E50EE1000F2E8B6 /* CCIStep.h in Headers */,
-				607EEA2D1E50EE1000F2E8B6 /* CCIScenarioDefinition.h in Headers */,
-				607EEA2C1E50EE1000F2E8B6 /* CCILocation.h in Headers */,
 				607EEA231E50EE1000F2E8B6 /* CCIFeaturesManager.h in Headers */,
 				607EEA261E50EE1000F2E8B6 /* CCIAroundHock.h in Headers */,
-				607EEA271E50EE1000F2E8B6 /* CCIBackground.h in Headers */,
-				607EEA291E50EE1000F2E8B6 /* CCIFeature.h in Headers */,
 				607EEA2A1E50EE1000F2E8B6 /* CCIHock.h in Headers */,
 				607EEA2B1E50EE1000F2E8B6 /* CCIJSONDumper.h in Headers */,
 				F307B4721F19F90500800005 /* CCILoggingManager.h in Headers */,
@@ -548,15 +546,20 @@
 				B3D80AF52049AC2A00ACAE33 /* XCTestCase+RecordFailure.h in Headers */,
 				607EEA371E50EE1000F2E8B6 /* GHExamples.h in Headers */,
 				607EEA381E50EE1000F2E8B6 /* GHFeature.h in Headers */,
+				87976B0A241B832200B0EF74 /* CCIStepsManager.h in Headers */,
 				607EEA391E50EE1000F2E8B6 /* GHGherkinDialect.h in Headers */,
 				607EEA3A1E50EE1000F2E8B6 /* GHGherkinDialectProvider.h in Headers */,
+				87976B05241B832200B0EF74 /* CCIBlockDefinitions.h in Headers */,
 				607EEA3B1E50EE1000F2E8B6 /* GHGherkinDialectProviderProtocol.h in Headers */,
+				87976B06241B832200B0EF74 /* CCILocation.h in Headers */,
 				607EEA3C1E50EE1000F2E8B6 /* GHGherkinLanguageConstants.h in Headers */,
+				87976B0C241B832200B0EF74 /* CCIScenarioDefinition.h in Headers */,
 				607EEA3D1E50EE1000F2E8B6 /* GHGherkinLanguageSetting.h in Headers */,
 				607EEA3E1E50EE1000F2E8B6 /* GHGherkinLine.h in Headers */,
 				607EEA3F1E50EE1000F2E8B6 /* GHGherkinLineProtocol.h in Headers */,
 				607EEA401E50EE1000F2E8B6 /* GHGherkinLineSpan.h in Headers */,
 				607EEA411E50EE1000F2E8B6 /* GHHasDescriptionProtocol.h in Headers */,
+				87976B04241B832200B0EF74 /* CCIStep.h in Headers */,
 				607EEA421E50EE1000F2E8B6 /* GHHasLocationProtocol.h in Headers */,
 				607EEA431E50EE1000F2E8B6 /* GHHasRowsProtocol.h in Headers */,
 				607EEA441E50EE1000F2E8B6 /* GHHasStepsProtocol.h in Headers */,
@@ -567,15 +570,20 @@
 				607EEA491E50EE1000F2E8B6 /* GHParser.h in Headers */,
 				607EEA4A1E50EE1000F2E8B6 /* GHParserException.h in Headers */,
 				607EEA4B1E50EE1000F2E8B6 /* GHScenario.h in Headers */,
+				87976B09241B832200B0EF74 /* Cucumberish.h in Headers */,
 				607EEA4C1E50EE1000F2E8B6 /* GHScenarioDefinition.h in Headers */,
+				87976B08241B832200B0EF74 /* CCIExample.h in Headers */,
 				607EEA4D1E50EE1000F2E8B6 /* GHScenarioDefinition_Private.h in Headers */,
 				607EEA4E1E50EE1000F2E8B6 /* GHScenarioOutline.h in Headers */,
 				607EEA4F1E50EE1000F2E8B6 /* GHStep.h in Headers */,
 				607EEA501E50EE1000F2E8B6 /* GHStepArgument.h in Headers */,
+				87976B07241B832200B0EF74 /* CCIBackground.h in Headers */,
 				607EEA511E50EE1000F2E8B6 /* GHTableCell.h in Headers */,
 				607EEA521E50EE1000F2E8B6 /* GHTableRow.h in Headers */,
 				607EEA531E50EE1000F2E8B6 /* GHTag.h in Headers */,
 				607EEA541E50EE1000F2E8B6 /* GHToken.h in Headers */,
+				87976B03241B832200B0EF74 /* CCIFeature.h in Headers */,
+				87976B0B241B832200B0EF74 /* CCIArgument.h in Headers */,
 				607EEA551E50EE1000F2E8B6 /* GHTokenMatcher.h in Headers */,
 				607EEA561E50EE1000F2E8B6 /* GHTokenScanner.h in Headers */,
 				607EEA571E50EE1000F2E8B6 /* NSString+Trim.h in Headers */,
@@ -668,6 +676,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3E0B34141DDB9C0E00E1A338;
